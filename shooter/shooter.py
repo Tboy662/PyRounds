@@ -6,7 +6,7 @@ import Soundsys as sound
 # ------------------
 # Configuration & Scaling
 # ------------------
-device = "Mac"
+device = "Windows"
 if device == "Mac":
     extra_path = "/Users/tomerbar/Python_III/"
     res = 1450, 800
@@ -553,4 +553,5 @@ while running:
     pygame.display.flip()
     
 pygame.quit()
+
 sys.exit()
